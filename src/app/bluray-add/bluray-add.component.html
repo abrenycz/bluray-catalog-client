@@ -1,0 +1,7 @@
+<br>
+
+<form #f = "ngForm" (ngSubmit)="save(f.value); f.resetForm()" novalidate>
+      <input [(ngModel)]="bluray.name" name="name">
+      <button>Submit</button>
+</form>
+
